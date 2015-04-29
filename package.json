@@ -1,0 +1,18 @@
+{
+    "name"              : "webapp",
+    "version"           : "0.1.0",
+
+    "author"            : "Rafael Madureira dos Santos <rafael.madureira.santos@gmail.com>",
+
+    "main"              : "app.js",
+
+    "scripts": {
+        "start": "node app.js"
+    },
+
+    "devDependencies": {
+        "express"       : "~4.12.3"
+    },
+
+    "engines": { "node": ">= 0.10.31" }
+}
