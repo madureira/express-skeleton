@@ -1,5 +1,7 @@
 #express-skeleton
 
+[![Dependency Status](https://www.versioneye.com/user/projects/554939fe5d4f9a0b990012c3/badge.svg?style=flat)](https://www.versioneye.com/user/projects/554939fe5d4f9a0b990012c3)
+
 This is an small skeleton application written in [Nodejs!](https://nodejs.org/) on [Express.js!](http://expressjs.com/).
 
 
