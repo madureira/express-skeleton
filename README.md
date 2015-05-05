@@ -24,7 +24,7 @@ This is an small skeleton application written in [Nodejs!](https://nodejs.org/) 
 
 ## How to access?
 
-[http://localhost:3000!](http://localhost:3000/)
+[http://localhost:3000/](http://localhost:3000/)
 
 
 ### Running unit tests
