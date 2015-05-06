@@ -1,9 +1,10 @@
-var request = require("request");
-var app = require("../../../app.js").app;
-var base_url = "http://localhost:3000/"
+var request     = require("request"),
+    app         = require("../../../app.js").app,
+    base_url    = "http://localhost:3000/";
 
 
 describe("Comments", function () {
+    "use strict";
 
     afterEach(function() {
         app.close();
