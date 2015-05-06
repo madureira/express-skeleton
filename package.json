@@ -1,17 +1,33 @@
 {
-    "name"              : "webapp",
+    "name"              : "express-skeleton",
     "version"           : "0.1.0",
-
+    "description"       : "A simple skeleton for Express.js applications",
+    "keywords"          : [ "express", "javascript", "nodejs" ],
     "author"            : "Rafael Madureira dos Santos <rafael.madureira.santos@gmail.com>",
+    "license"           : "BSD",
 
     "main"              : "app.js",
 
+    "repository"        :{ 
+        "type"  : "git",
+        "url"   : "https://github.com/madureira/express-skeleton"
+    },
+
     "scripts": {
-        "start": "node app.js"
+        "start"     : "node app.js",
+        "test"      : "jasmine-node src/test/**/*.js --verbose"
+    },
+
+    "dependencies" : {
+        "express"                   : "~4.12.3"
     },
 
     "devDependencies": {
-        "express"       : "~4.12.3"
+        "jasmine-node-karma"        : "~1.6.1",
+        "karma"                     : "~0.12.28",
+        "karma-phantomjs-launcher"  : "~0.1.4",
+        "karma-jasmine"             : "~0.3.2",
+        "request"                   : "~2.55.0"
     },
 
     "engines": { "node": ">= 0.10.31" }

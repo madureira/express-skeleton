@@ -14,6 +14,7 @@ This is a small skeleton application written in [Nodejs](https://nodejs.org/) on
 
 ```sh
      $ npm install
+     $ npm install -g karma-cli
 ```
 
 
