@@ -11,14 +11,14 @@ describe("Comments", function () {
 
     it("should validate response code to comments", function (done) {
         request.get(base_url, function(error, response, body) {
-            expect(response.body).toEqual("Root");
+            expect(response.statusCode).toEqual(200);
             done();
         });
     });
 
     it("should validate the returned body to comments", function (done) {
         request.get(base_url, function(error, response, body) {
-            expect(response.body).toEqual("Root");
+            expect(body).toEqual("Root");
             done();
         });
     });
